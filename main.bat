@@ -1,0 +1,1 @@
+bscript.exe main.bscript
