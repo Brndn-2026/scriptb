@@ -6,9 +6,7 @@ An example script of printing hello bscript then waiting 3 secs then saying hell
 main.bscript:
 
 print hello bscript
-
 wait 3
-
 repeat 3 print hello world
 
 all the docs will be in the wiki
