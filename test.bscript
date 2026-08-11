@@ -1,0 +1,40 @@
+print Starting full command test suite
+hi
+print hello world
+setvar test hello world
+getvar test
+listvars
+deletevar test
+listvars
+wait 1
+sleep 1
+repeat 2 print repeat works
+help
+time
+date
+datetime
+clear
+comment
+# this is a comment
+addoffpackage pip
+addlocalpackage jsonhandle.py
+import jsonhandle
+listimported
+reload jsonhandle
+listloaded
+reloadmodule jsonhandle
+unloadmodule jsonhandle
+listmodules
+runfunction time time
+runfile helper.bscript
+if 1 print if branch executed
+while 0 print while branch should not run
+for item in ['x','y'] print for branch
+assert 1
+try raise hello except hi
+elif
+else
+finally
+except
+print Full command test complete
+setvar name !input
