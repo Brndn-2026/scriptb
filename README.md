@@ -19,3 +19,6 @@ run bscript.exe to run the REPL(use runfile filepath to run a .bscript file)
 run bscript.exe filepath(run in terminal) to run the file
 
 all the docs will be in the wiki
+
+## NOTE:
+our website is at https://brndn-2026.github.io/bscript-website/
