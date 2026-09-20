@@ -1,6 +1,6 @@
 # Welcome to ScriptB
 
-Welcome to ScriptB(made in python). It is a really simple programming language
+Welcome to ScriptB(made in python). It is a really simple programming language.
 An example script of printing hello bscript then waiting 3 secs then saying hello world 3 times:
 
 main.bscript:
