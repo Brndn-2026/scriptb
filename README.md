@@ -22,3 +22,4 @@ all the docs will be in the wiki
 
 ## NOTE:
 our website is at https://brndn-2026.github.io/scriptb-website/
+IoT website https://scriptb-iot.onrender.com/
