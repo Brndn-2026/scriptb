@@ -1,25 +1,46 @@
-# Welcome to ScriptB
+# ScriptB
 
-Welcome to ScriptB(made in python). It is a really simple programming language.
-An example script of printing hello bscript then waiting 3 secs then saying hello world 3 times:
+ScriptB is a small scripting language with commands such as `print`, `wait`, and `repeat`. This release includes Windows executables and example `.bscript` programs.
 
-main.bscript:
+## Try it
 
-print hello bscript
+On Windows, open this folder in a terminal and run an included script:
 
-wait 3
+```powershell
+.\scriptb.exe .\example.bscript
+```
 
-repeat 3 print hello world
+Or run the starter program with:
 
-# How to run
-run main.bat to run the reguler main.bscript
+```powershell
+.\main.bat
+```
 
-run scriptb.exe to run the REPL(use runfile filepath to run a .bscript file)
+`main.bat` runs `main.bscript` from the project folder, even if you launch it while your terminal is in another directory.
 
-run scriptb.exe filepath(run in terminal) to run the file
+## Example
 
-all the docs will be in the wiki
+```text
+print Hello, ScriptB!
+wait 1
+repeat 3 print Hello again!
+```
 
-## NOTE:
-our website is at https://brndn-2026.github.io/scriptb-website/
-IoT website https://scriptb-iot.onrender.com/
+Save the lines in a `.bscript` file, then pass its path to `scriptb.exe` as shown above.
+
+## Interactive mode
+
+Start the REPL with:
+
+```powershell
+.\scriptb.exe
+```
+
+Use `runfile path\to\file.bscript` in the REPL to run a script file.
+
+## Project links
+
+- [ScriptB website](https://brndn-2026.github.io/scriptb-website/)
+- [ScriptB IoT project](https://scriptb-iot.onrender.com/)
+
+The `test.bscript` file contains additional command examples. For the language reference and updates, see the project wiki.
