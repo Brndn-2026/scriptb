@@ -1,0 +1,5 @@
+print [CMD] CONNECT_IOT_NODE
+wait 2
+repeat 5
+print [CMD] TOGGLE_PIN_12
+wait 1
