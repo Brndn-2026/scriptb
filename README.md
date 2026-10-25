@@ -1,6 +1,4 @@
 # ScriptB
-<<<<<<< HEAD
-=======
 
 ScriptB is a small scripting language with commands such as `print`, `wait`, and `repeat`. This release includes Windows executables and example `.bscript` programs.
 
@@ -46,4 +44,4 @@ Use `runfile path\to\file.bscript` in the REPL to run a script file.
 - [ScriptB IoT project](https://scriptb-iot.onrender.com/)
 
 The `test.bscript` file contains additional command examples. For the language reference and updates, see the project wiki.
->>>>>>> parent of 3dd9fea (make more popular)
+
