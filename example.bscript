@@ -1,1 +1,3 @@
-
+# A small first ScriptB program
+print Hello from ScriptB!
+repeat 3 print Learning by repetition!
